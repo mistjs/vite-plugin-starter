@@ -18,6 +18,14 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "packageMananger": "pnpm@6.32.8",
   "scripts": {
     "prepare": "husky install",

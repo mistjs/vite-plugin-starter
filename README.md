@@ -4,6 +4,8 @@
 * unbuild
 * vitest
 * playground
+* husky
+* 
 
 ## starter
 
