@@ -8,6 +8,7 @@
   "directories": {
     "test": "test"
   },
+  "packageMananger": "pnpm@6.32.8",
   "scripts": {
     "prepare": "husky install",
     "test": "vitest",
