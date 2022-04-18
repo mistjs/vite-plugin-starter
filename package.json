@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-starter",
+  "version": "1.0.0",
+  "description": "this is vite plugin template",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "vite"
+  ],
+  "author": "aibayanyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mistjs/vite-plugin-starter/issues"
+  },
+  "homepage": "https://github.com/mistjs/vite-plugin-starter#readme"
+}
