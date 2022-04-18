@@ -2,6 +2,16 @@
   "name": "vite-plugin-starter",
   "version": "1.0.0",
   "description": "this is vite plugin template",
+  "keywords": [
+    "vite-plugin",
+    "vite"
+  ],
+  "license": "MIT",
+  "author": "aibayanyu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,25 +25,11 @@
     "test:run": "vitest run",
     "build": "unbuild",
     "stub": "unbuild --stub",
-    "vite:dev": "vite playground"
+    "playground": "vite playground"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mistjs/vite-plugin-starter.git"
-  },
-  "keywords": [
-    "vite-plugin",
-    "vite"
-  ],
-  "author": "aibayanyu",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mistjs/vite-plugin-starter/issues"
   },
-  "lint-staged": {
-    "*.{ts,tsx,js,vue}": "eslint . --fix"
-  },
-  "homepage": "https://github.com/mistjs/vite-plugin-starter#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
@@ -51,5 +47,9 @@
     "vite": "^2.9.5",
     "vitest": "^0.9.3",
     "vue": "^3.2.33"
-  }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,vue}": "eslint . --fix"
+  },
+  "homepage": "https://github.com/mistjs/vite-plugin-starter#readme"
 }
